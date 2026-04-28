@@ -1,0 +1,30 @@
+
+body {
+    margin: 20px;
+    font-family: Arial, sans-serif;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr; 
+    grid-gap: 10px; 
+    text-align: center;
+}
+.container > * {
+    border: 1px solid #333;
+    padding: 40px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+.header, .sub-header, .footer {
+    grid-column: span 3;
+}
+.header { height: 60px; }
+.sub-header { height: 30px; }
+
+.left-area, .main-area, .right-area {
+    min-height: 300px;
+}
+
+.footer { height: 50px; }

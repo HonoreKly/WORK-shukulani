@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Layout Design</title>
+<style>
+    body {
+        background: hsl(0, 0%, 93%)
+        font-family: Arial, sans-serif;
+    }
+
+    .container {
+        width: 80%;
+        margin: 20px auto;
+    }
+
+    .box {
+        border: 5px solid black;
+        background: hwb(0 87% 13%);
+        text-align: center;
+        padding: 20px;
+        margin-bottom: 15px;
+    }
+
+    .header {
+        height: 80px;
+        line-height: 80px;
+    }
+
+    .info {
+        height: 40px;
+        line-height: 40px;
+    }
+
+    .content {
+        display: flex;
+        gap: 15px;
+    }
+
+    .left, .right {
+        flex: 1;
+        height: 200px;
+        line-height: 200px;
+    }
+
+    .main {
+        flex: 2;
+        height: 200px;
+        line-height: 200px;
+    }
+
+    .footer {
+        height: 80px;
+        line-height: 80px;
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <div class="box header">Header Area</div>
+    <div class="box info">Log In, Location information</div>
+
+    <div class="content">
+        <div class="box left">Left Area</div>
+        <div class="box main">Main Area</div>
+        <div class="box right">Right Area</div>
+    </div>
+
+    <div class="box footer">Footer Area</div>
+</div>
+
+</body>
+</html>

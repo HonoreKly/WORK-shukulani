@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WEB  IAP </title>
+
+<style>
+
+body {
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 40px 20px;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    min-height: 100vh;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 40;
+}
+
+header h1 {
+    font-size: 2rem;
+    letter-spacing: 2px;
+    color: #222;
+    text-transform: uppercase;
+}
+
+/* dashed container */
+.dashed-envelope {
+    border: 3px dashed #666;
+    padding: 50px;
+    width: 90%;
+    max-width: 800px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.section-title {
+    align-self: center;
+    margin-bottom: 50px;
+    font-weight: 600;
+    color: #444;
+}
+
+/* box */
+.info-box {
+    border: 2px solid #444;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 350px;
+    padding: 25px;
+    margin-bottom: 40px;
+    line-height: 1.6;
+    font-size: 1rem;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+/* ellipse */
+.ellipse-shape {
+    border: 2px dotted #444;
+    width: 100%;
+    max-width: 380px;
+    min-height: 220px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    text-align: center;
+    box-sizing: border-box;
+    line-height: 1.5;
+    font-size: 0.95rem;
+}
+
+.icon-label {
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #000;
+}
+
+p {
+    margin: 0;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>WELCOME TO CSS BOX MODEL DESIGN</h1>
+</header>
+
+<main class="dashed-envelope">
+
+    <h2 class="section-title">How to format box model</h2>
+
+    <div class="info-box">
+        <p>The content box is the innermost area of an element where the actual content, such as text or images, is displayed. You can control its size using the width and height properties.</p>
+    </div>
+
+    <div class="ellipse-shape">
+        <p>This will create an elliptical shape by applying a border radius of 50% to make a smooth oval form of the element.</p>
+    </div>
+
+    <p class="icon-label">This is an Icon</p>
+
+</main>
+
+</body>
+</html>

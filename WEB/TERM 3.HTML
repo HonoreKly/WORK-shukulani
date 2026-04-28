@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Medium Layout</title>
+<style>
+    body {
+        background: #eee;
+        font-family: Arial, sans-serif;
+    }
+
+    .container {
+        width: 600px;   
+        margin: 20px auto;
+    }
+
+    .box {
+        border: 5px solid black;
+        background: hsl(0, 0%, 87%);
+        text-align: center;
+        padding: 15px;
+        margin-bottom: 10px;
+    }
+
+    .header {
+        height: 70px;
+    }
+
+    .info {
+        height: 35px;
+    }
+
+    .content {
+        display: flex;
+        gap: 10px;
+    }
+
+    .left, .right {
+        width: 25%;
+        height: 180px;
+    }
+
+    .main {
+        width: 50%;
+        height: 180px;
+    }
+
+    .footer {
+        height: 70px;
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <div class="box header">Header Area</div>
+    <div class="box info">Log In, Location information</div>
+
+    <div class="content">
+        <div class="box left">Left Area</div>
+        <div class="box main">Main Area</div>
+        <div class="box right">Right Area</div>
+    </div>
+
+    <div class="box footer">Footer Area</div>
+</div>
+
+</body>
+ hvgt6 </html>
